@@ -1,0 +1,101 @@
+
+.suceess_story {
+    position: relative;
+}
+.suceess_story:before, .suceess_story:after {
+    content: "\f004";
+    color:#c32143;
+    font-family: "FontAwesome";
+    position: absolute;
+    left: 8px;
+    top: -18px;
+    z-index: 10;
+}
+.suceess_story:before, .suceess_story:after {
+    color:#c32143;
+}
+.suceess_story ul {
+    list-style-type: none;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.suceess_story ul li:first-child {
+    padding-top: 2rem;
+}
+.suceess_story ul li {
+    padding-bottom: 2rem;
+    position: relative;
+    margin: 0;
+}
+.suceess_story-date {
+    line-height: 2;
+    margin-bottom: 0.625rem;
+    position: relative;
+}
+.suceess_story-content-container, .suceess_story-date {
+    margin-left: 2.813rem;
+}
+.suceess_story-content-container {
+    overflow: hidden;
+}
+.suceess_story-content-container, .suceess_story-date {
+    margin-left: 2.813rem;
+}
+.suceess_story-content-featured-image {
+    margin-right: 1.25rem;
+    margin-bottom: 1rem;
+}
+.suceess_story-date:before {
+    content: "_____";
+    color: #DFDFDF;
+    position: absolute;
+    left: -44px;
+    top: -4px;
+}
+.suceess_story-content-featured-image, .suceess_story-content-featured-image img {
+    float: left;
+}
+.suceess_story ul li:after {
+    bottom: 0;
+    border-left: 1px solid;
+    color: #DFDFDF;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+}
+.suceess_story:after {
+    bottom: -15px;
+    top: inherit;
+}
+.entry-1{
+    color: #a8a8a7;
+    font-size:11px;
+    letter-spacing: 2px;
+    margin: 0 0 1.25rem;
+    text-transform: uppercase;
+}
+.suceess_story-content-info h4{
+    font-weight:600;
+    font-size:1.2em;
+}
+.suceess_story-content-info h4 a{
+    color:#000;
+}
+.suceess_story-content-info h4 a:hover{
+    text-decoration:none;
+    color:#f0394d;
+}
+.suceess_story-content-info p{
+    color:#555;
+    font-size:0.85em;
+    line-height:1.8em;
+}
+.suceess_story-content-info p a{
+    color:#c32143;
+}
+.suceess_story-content-info p a:hover{
+    color:#000;
+}
